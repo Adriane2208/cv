@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.portfolio-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 600px;
+}
+
+.photo-description {
+    display: flex;
+    align-items: center;
+}
+
+.photo img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.description {
+    max-width: 400px;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skills h3 {
+    text-align: center;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.skill img {
+    width: 30px; /* Taille réduite à 30px */
+    height: 30px; /* Taille réduite à 30px */
+    margin-right: 10px;
+}
+
+.skill-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.progress {
+    background-color: #4CAF50;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    line-height: 20px;
+}
